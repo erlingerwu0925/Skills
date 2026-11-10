@@ -1,7 +1,7 @@
 # 上游来源 / Attribution
 
 本仓库的第三方 Skill 来自下列公开项目，保留各 Skill 自带许可证和配套文件。
-同步流程：GitHub Actions → `Install eight writing skills`；也可以执行 `bash scripts/sync-skills.sh`。同步后在 `UPSTREAM_VERSIONS.txt` 记录对应上游 Git commit。
+八个 Skill 及其配套文件已提交到 `.agents/skills/`，无需再次自动安装。GitHub Actions 的 `Verify eight writing skills` 是**手动触发、只读校验**，不会自动推送或覆盖仓库文件。如需从上游更新，可在受信任的开发环境执行 `bash scripts/sync-skills.sh`，审查变更与许可证后自行提交；脚本会在 `UPSTREAM_VERSIONS.txt` 记录上游 Git commit。
 
 | 本仓库技能目录 | 上游仓库和相对路径 | 用途 |
 |---|---|---|
