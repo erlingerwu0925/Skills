@@ -6,6 +6,10 @@
 
 安装后可在 Codex 中使用 `$skill-name` 显式调用；也可将本仓库中的 `.agents/skills/` 复制到其他项目，或者复制到个人目录 `~/.agents/skills/`。网页 Codex 需要将本仓库用作项目或将技能同步到所工作的仓库，单独存在这个仓库不会自动影响其他仓库。
 
+## GitHub Actions 说明
+
+这八个 Skill 已经直接提交到仓库，不需要运行自动安装任务。`Actions → Verify eight writing skills → Run workflow` 可按需**手动校验** `SKILL.md`、关键配套资料与 Python 脚本的语法。该工作流不会联网更新技能，也不会自动修改或推送仓库，避免同步期间出现 Git 提交冲突。
+
 这些技能来自独立第三方项目，并非本仓库原创；请遵守各技能附带的许可证。具体来源见 `SOURCES.md`。
 
 ## 质量提醒
