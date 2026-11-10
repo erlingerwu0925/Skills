@@ -1,32 +1,54 @@
-name: Install eight writing skills
+name: Verify eight writing skills
+
+# Skill files are already committed to this repository.
+# Run this read-only check manually; do not auto-push or overwrite files.
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/install-skills.yml'
-      - 'scripts/sync-skills.sh'
+
 permissions:
-  contents: write
+  contents: read
+
 jobs:
-  install:
+  verify:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - name: Fetch upstream Skill directories with scripts and licenses
-        shell: bash
-        run: bash scripts/sync-skills.sh
-      - name: Commit synchronized Skills
+
+      - name: Check required Skill definitions and bundled resources
         shell: bash
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .agents/skills UPSTREAM_VERSIONS.txt
-          if git diff --cached --quiet; then
-            echo "Nothing to commit."
-          else
-            git commit -m "Import eight upstream writing Skills for Codex"
-            git push origin HEAD:main
-          fi
+          set -euo pipefail
+          for skill in \
+            humanizer-chinese \
+            humanizer-zh \
+            general-writing \
+            academic-voice \
+            professional-proofreader \
+            scientific-writing \
+            plain-writing \
+            docx; do
+            file=".agents/skills/$skill/SKILL.md"
+            test -s "$file" || { echo "::error::Missing or empty $file"; exit 1; }
+            grep -q '^name:' "$file" || { echo "::error::Missing name frontmatter in $file"; exit 1; }
+            echo "Found $skill"
+          done
+          test -s .agents/skills/docx/LICENSE.txt
+          test -s .agents/skills/docx/scripts/office/validate.py
+          test -s .agents/skills/scientific-writing/references/evidence_workflow.md
+          test -s .agents/skills/scientific-writing/scripts/check_references.py
+          test -s .agents/skills/humanizer-chinese/LICENSE
+          test -s .agents/skills/humanizer-zh/LICENSE
+          echo "All eight Skill definitions and critical supporting files are present."
+
+      - name: Check Python helper script syntax
+        shell: bash
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          paths = sorted(Path(".agents/skills").rglob("*.py"))
+          for p in paths:
+              ast.parse(p.read_text(encoding="utf-8"), filename=str(p))
+          print(f"Syntax checked: {len(paths)} Python scripts")
+          PY
