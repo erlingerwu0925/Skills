@@ -1,0 +1,64 @@
+name: Import selected research skills
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/import-selected-research-skills.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: selected-research-skills-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout skills repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Import five chosen public sources and generate categorized Codex skills
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/import_selected_research_skills.py
+
+      - name: Verify category indexing and original Skill files
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path(".")
+          data = json.loads((root / "RESEARCH_SKILLS_MANIFEST.json").read_text())
+          assert data["total_installed_entrypoints"] >= 230
+          for item in data["skills"]:
+              assert (root/item["entry"]).is_file(), item["entry"]
+              assert (root/item["canonical"]).is_file(), item["canonical"]
+          for category in ["01-literature","02-research-design","03-data-experiments",
+                           "04-writing-review","05-automation","06-specialized"]:
+              assert (root/"categories"/category/"README.md").is_file()
+          assert (root/"collections/05-research-index/Auto-Research-Skills/INDEX-NOTE.md").is_file()
+          print("Verified", data["total_installed_entrypoints"], "research Skill entrypoints")
+          PY
+
+      - name: Commit imported Skills and research indexes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .agents/skills collections categories RESEARCH_SKILLS_MANIFEST.json RESEARCH_SKILLS_README.md
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Import five selected research libraries and categorized Codex entries"
+            git push origin HEAD:main
+          fi
