@@ -15,3 +15,17 @@
 ## 质量提醒
 
 去 AI 味应改进文字质量与可读性，不能用于捏造事实、伪造文献或承诺绕过 AI 检测。写作技能应保留事实、引文、数据和原意。科学写作的参考资料与验证脚本不能代替人工核实。
+
+
+## 自动化科研 Skill（新增）
+
+已按照任务类型导入以下五套来源：Scientific Agent Skills、ARIS、
+ARS-Codex、Research Starter Skills、Auto-Research-Skills（资源索引）。
+
+- [按技能类型浏览：文献、研究设计、数据实验、论文审稿、科研自动化、专业学科](RESEARCH_SKILLS_README.md)
+- [按五套来源浏览完整原始内容](collections/README.md)
+- [查看机器可读技能清单及上游版本](RESEARCH_SKILLS_MANIFEST.json)
+
+导入新增 272 个 Codex 技能入口。原有 8 个写作 Skill 保留在 .agents/skills。
+原始技能文件保存在 collections/ 的分类目录中，Codex 入口是读取原始技能的轻量 SKILL.md。
+第 8 套为聚合资源索引，未把外部的数千个子模块直接装入；相关工具、脚本和 API 依赖需要另行检查。
