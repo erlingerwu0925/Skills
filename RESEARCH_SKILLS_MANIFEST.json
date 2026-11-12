@@ -1,0 +1,2209 @@
+{
+  "sources": [
+    {
+      "id": "kd",
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5"
+    },
+    {
+      "id": "aris",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "commit": "8f493923f28c3f991dcca1287db97aa780d0969b"
+    },
+    {
+      "id": "ars",
+      "repository": "Imbad0202/academic-research-skills-codex",
+      "commit": "82725acb393c4410ac6f47634a7f51b40a162fa4"
+    },
+    {
+      "id": "rsk",
+      "repository": "YCC-Lover/research-starter-skills",
+      "commit": "1dc4624832f64a544a02396cf0db25af45f1cc6c"
+    },
+    {
+      "id": "index",
+      "repository": "brycewang-stanford/Auto-Research-Skills",
+      "commit": "d6564aedc55f16b1cdb8d8104435bd6ba90aedb7"
+    }
+  ],
+  "total_installed_entrypoints": 272,
+  "skills": [
+    {
+      "name": "kd-13c-metabolic-flux",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "05-automation",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/13c-metabolic-flux/SKILL.md",
+      "entry": ".agents/skills/kd-13c-metabolic-flux/SKILL.md"
+    },
+    {
+      "name": "kd-adaptyv",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/adaptyv/SKILL.md",
+      "entry": ".agents/skills/kd-adaptyv/SKILL.md"
+    },
+    {
+      "name": "kd-aeon",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/aeon/SKILL.md",
+      "entry": ".agents/skills/kd-aeon/SKILL.md"
+    },
+    {
+      "name": "kd-alphagenome",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/alphagenome/SKILL.md",
+      "entry": ".agents/skills/kd-alphagenome/SKILL.md"
+    },
+    {
+      "name": "kd-analytical-method-validation",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/analytical-method-validation/SKILL.md",
+      "entry": ".agents/skills/kd-analytical-method-validation/SKILL.md"
+    },
+    {
+      "name": "kd-anndata",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/anndata/SKILL.md",
+      "entry": ".agents/skills/kd-anndata/SKILL.md"
+    },
+    {
+      "name": "kd-arbor",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/arbor/SKILL.md",
+      "entry": ".agents/skills/kd-arbor/SKILL.md"
+    },
+    {
+      "name": "kd-arboreto",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/arboreto/SKILL.md",
+      "entry": ".agents/skills/kd-arboreto/SKILL.md"
+    },
+    {
+      "name": "kd-astropy",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/astropy/SKILL.md",
+      "entry": ".agents/skills/kd-astropy/SKILL.md"
+    },
+    {
+      "name": "kd-autoskill",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "05-automation",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/autoskill/SKILL.md",
+      "entry": ".agents/skills/kd-autoskill/SKILL.md"
+    },
+    {
+      "name": "kd-benchling-integration",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/benchling-integration/SKILL.md",
+      "entry": ".agents/skills/kd-benchling-integration/SKILL.md"
+    },
+    {
+      "name": "kd-bgpt-paper-search",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "01-literature",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/bgpt-paper-search/SKILL.md",
+      "entry": ".agents/skills/kd-bgpt-paper-search/SKILL.md"
+    },
+    {
+      "name": "kd-bids",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/bids/SKILL.md",
+      "entry": ".agents/skills/kd-bids/SKILL.md"
+    },
+    {
+      "name": "kd-biopython",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/biopython/SKILL.md",
+      "entry": ".agents/skills/kd-biopython/SKILL.md"
+    },
+    {
+      "name": "kd-bioservices",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/bioservices/SKILL.md",
+      "entry": ".agents/skills/kd-bioservices/SKILL.md"
+    },
+    {
+      "name": "kd-bulk-rnaseq",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/bulk-rnaseq/SKILL.md",
+      "entry": ".agents/skills/kd-bulk-rnaseq/SKILL.md"
+    },
+    {
+      "name": "kd-cantera",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/cantera/SKILL.md",
+      "entry": ".agents/skills/kd-cantera/SKILL.md"
+    },
+    {
+      "name": "kd-cellprofiler",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/cellprofiler/SKILL.md",
+      "entry": ".agents/skills/kd-cellprofiler/SKILL.md"
+    },
+    {
+      "name": "kd-cellxgene-census",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/cellxgene-census/SKILL.md",
+      "entry": ".agents/skills/kd-cellxgene-census/SKILL.md"
+    },
+    {
+      "name": "kd-cirq",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/cirq/SKILL.md",
+      "entry": ".agents/skills/kd-cirq/SKILL.md"
+    },
+    {
+      "name": "kd-citation-management",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "01-literature",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/citation-management/SKILL.md",
+      "entry": ".agents/skills/kd-citation-management/SKILL.md"
+    },
+    {
+      "name": "kd-clinical-decision-support",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/clinical-decision-support/SKILL.md",
+      "entry": ".agents/skills/kd-clinical-decision-support/SKILL.md"
+    },
+    {
+      "name": "kd-clinical-reports",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/clinical-reports/SKILL.md",
+      "entry": ".agents/skills/kd-clinical-reports/SKILL.md"
+    },
+    {
+      "name": "kd-cobrapy",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/cobrapy/SKILL.md",
+      "entry": ".agents/skills/kd-cobrapy/SKILL.md"
+    },
+    {
+      "name": "kd-consciousness-council",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/consciousness-council/SKILL.md",
+      "entry": ".agents/skills/kd-consciousness-council/SKILL.md"
+    },
+    {
+      "name": "kd-dask",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/dask/SKILL.md",
+      "entry": ".agents/skills/kd-dask/SKILL.md"
+    },
+    {
+      "name": "kd-database-lookup",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "01-literature",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/database-lookup/SKILL.md",
+      "entry": ".agents/skills/kd-database-lookup/SKILL.md"
+    },
+    {
+      "name": "kd-datalad",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/datalad/SKILL.md",
+      "entry": ".agents/skills/kd-datalad/SKILL.md"
+    },
+    {
+      "name": "kd-datamol",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/datamol/SKILL.md",
+      "entry": ".agents/skills/kd-datamol/SKILL.md"
+    },
+    {
+      "name": "kd-deepchem",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/deepchem/SKILL.md",
+      "entry": ".agents/skills/kd-deepchem/SKILL.md"
+    },
+    {
+      "name": "kd-deepspot-m",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/deepspot-m/SKILL.md",
+      "entry": ".agents/skills/kd-deepspot-m/SKILL.md"
+    },
+    {
+      "name": "kd-deeptools",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/deeptools/SKILL.md",
+      "entry": ".agents/skills/kd-deeptools/SKILL.md"
+    },
+    {
+      "name": "kd-depmap",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/depmap/SKILL.md",
+      "entry": ".agents/skills/kd-depmap/SKILL.md"
+    },
+    {
+      "name": "kd-dhdna-profiler",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/dhdna-profiler/SKILL.md",
+      "entry": ".agents/skills/kd-dhdna-profiler/SKILL.md"
+    },
+    {
+      "name": "kd-diffdock",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/diffdock/SKILL.md",
+      "entry": ".agents/skills/kd-diffdock/SKILL.md"
+    },
+    {
+      "name": "kd-dnanexus-integration",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/dnanexus-integration/SKILL.md",
+      "entry": ".agents/skills/kd-dnanexus-integration/SKILL.md"
+    },
+    {
+      "name": "kd-esm",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/esm/SKILL.md",
+      "entry": ".agents/skills/kd-esm/SKILL.md"
+    },
+    {
+      "name": "kd-etetoolkit",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/etetoolkit/SKILL.md",
+      "entry": ".agents/skills/kd-etetoolkit/SKILL.md"
+    },
+    {
+      "name": "kd-exa-search",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "01-literature",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/exa-search/SKILL.md",
+      "entry": ".agents/skills/kd-exa-search/SKILL.md"
+    },
+    {
+      "name": "kd-experimental-design",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "02-research-design",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/experimental-design/SKILL.md",
+      "entry": ".agents/skills/kd-experimental-design/SKILL.md"
+    },
+    {
+      "name": "kd-exploratory-data-analysis",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/exploratory-data-analysis/SKILL.md",
+      "entry": ".agents/skills/kd-exploratory-data-analysis/SKILL.md"
+    },
+    {
+      "name": "kd-fictiv",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/fictiv/SKILL.md",
+      "entry": ".agents/skills/kd-fictiv/SKILL.md"
+    },
+    {
+      "name": "kd-flowio",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/flowio/SKILL.md",
+      "entry": ".agents/skills/kd-flowio/SKILL.md"
+    },
+    {
+      "name": "kd-flowkit",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/flowkit/SKILL.md",
+      "entry": ".agents/skills/kd-flowkit/SKILL.md"
+    },
+    {
+      "name": "kd-fluidsim",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/fluidsim/SKILL.md",
+      "entry": ".agents/skills/kd-fluidsim/SKILL.md"
+    },
+    {
+      "name": "kd-folklore-variant-evidence",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/folklore-variant-evidence/SKILL.md",
+      "entry": ".agents/skills/kd-folklore-variant-evidence/SKILL.md"
+    },
+    {
+      "name": "kd-generate-image",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/generate-image/SKILL.md",
+      "entry": ".agents/skills/kd-generate-image/SKILL.md"
+    },
+    {
+      "name": "kd-geniml",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/geniml/SKILL.md",
+      "entry": ".agents/skills/kd-geniml/SKILL.md"
+    },
+    {
+      "name": "kd-genomic-coordinates",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/genomic-coordinates/SKILL.md",
+      "entry": ".agents/skills/kd-genomic-coordinates/SKILL.md"
+    },
+    {
+      "name": "kd-genomic-intelligence",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/genomic-intelligence/SKILL.md",
+      "entry": ".agents/skills/kd-genomic-intelligence/SKILL.md"
+    },
+    {
+      "name": "kd-geomaster",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/geomaster/SKILL.md",
+      "entry": ".agents/skills/kd-geomaster/SKILL.md"
+    },
+    {
+      "name": "kd-geopandas",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/geopandas/SKILL.md",
+      "entry": ".agents/skills/kd-geopandas/SKILL.md"
+    },
+    {
+      "name": "kd-get-available-resources",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "01-literature",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/get-available-resources/SKILL.md",
+      "entry": ".agents/skills/kd-get-available-resources/SKILL.md"
+    },
+    {
+      "name": "kd-gget",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/gget/SKILL.md",
+      "entry": ".agents/skills/kd-gget/SKILL.md"
+    },
+    {
+      "name": "kd-ginkgo-cloud-lab",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/ginkgo-cloud-lab/SKILL.md",
+      "entry": ".agents/skills/kd-ginkgo-cloud-lab/SKILL.md"
+    },
+    {
+      "name": "kd-glycoengineering",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/glycoengineering/SKILL.md",
+      "entry": ".agents/skills/kd-glycoengineering/SKILL.md"
+    },
+    {
+      "name": "kd-gtars",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/gtars/SKILL.md",
+      "entry": ".agents/skills/kd-gtars/SKILL.md"
+    },
+    {
+      "name": "kd-histolab",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/histolab/SKILL.md",
+      "entry": ".agents/skills/kd-histolab/SKILL.md"
+    },
+    {
+      "name": "kd-hugging-science",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/hugging-science/SKILL.md",
+      "entry": ".agents/skills/kd-hugging-science/SKILL.md"
+    },
+    {
+      "name": "kd-hypogenic",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/hypogenic/SKILL.md",
+      "entry": ".agents/skills/kd-hypogenic/SKILL.md"
+    },
+    {
+      "name": "kd-hypothesis-generation",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "02-research-design",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/hypothesis-generation/SKILL.md",
+      "entry": ".agents/skills/kd-hypothesis-generation/SKILL.md"
+    },
+    {
+      "name": "kd-imaging-data-commons",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/imaging-data-commons/SKILL.md",
+      "entry": ".agents/skills/kd-imaging-data-commons/SKILL.md"
+    },
+    {
+      "name": "kd-infographics",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/infographics/SKILL.md",
+      "entry": ".agents/skills/kd-infographics/SKILL.md"
+    },
+    {
+      "name": "kd-iso-standards-readiness",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/iso-standards-readiness/SKILL.md",
+      "entry": ".agents/skills/kd-iso-standards-readiness/SKILL.md"
+    },
+    {
+      "name": "kd-lab-hardware-cad",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/lab-hardware-cad/SKILL.md",
+      "entry": ".agents/skills/kd-lab-hardware-cad/SKILL.md"
+    },
+    {
+      "name": "kd-labarchive-integration",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/labarchive-integration/SKILL.md",
+      "entry": ".agents/skills/kd-labarchive-integration/SKILL.md"
+    },
+    {
+      "name": "kd-lamindb",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/lamindb/SKILL.md",
+      "entry": ".agents/skills/kd-lamindb/SKILL.md"
+    },
+    {
+      "name": "kd-latchbio-integration",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/latchbio-integration/SKILL.md",
+      "entry": ".agents/skills/kd-latchbio-integration/SKILL.md"
+    },
+    {
+      "name": "kd-latex-posters",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "04-writing-review",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/latex-posters/SKILL.md",
+      "entry": ".agents/skills/kd-latex-posters/SKILL.md"
+    },
+    {
+      "name": "kd-liteparse",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/liteparse/SKILL.md",
+      "entry": ".agents/skills/kd-liteparse/SKILL.md"
+    },
+    {
+      "name": "kd-literature-review",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "01-literature",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/literature-review/SKILL.md",
+      "entry": ".agents/skills/kd-literature-review/SKILL.md"
+    },
+    {
+      "name": "kd-mageck",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/mageck/SKILL.md",
+      "entry": ".agents/skills/kd-mageck/SKILL.md"
+    },
+    {
+      "name": "kd-marine-carbonate-chemistry",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/marine-carbonate-chemistry/SKILL.md",
+      "entry": ".agents/skills/kd-marine-carbonate-chemistry/SKILL.md"
+    },
+    {
+      "name": "kd-markdown-mermaid-writing",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/markdown-mermaid-writing/SKILL.md",
+      "entry": ".agents/skills/kd-markdown-mermaid-writing/SKILL.md"
+    },
+    {
+      "name": "kd-market-research-reports",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "01-literature",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/market-research-reports/SKILL.md",
+      "entry": ".agents/skills/kd-market-research-reports/SKILL.md"
+    },
+    {
+      "name": "kd-markitdown",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/markitdown/SKILL.md",
+      "entry": ".agents/skills/kd-markitdown/SKILL.md"
+    },
+    {
+      "name": "kd-matchms",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/matchms/SKILL.md",
+      "entry": ".agents/skills/kd-matchms/SKILL.md"
+    },
+    {
+      "name": "kd-matlab",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/matlab/SKILL.md",
+      "entry": ".agents/skills/kd-matlab/SKILL.md"
+    },
+    {
+      "name": "kd-matplotlib",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/matplotlib/SKILL.md",
+      "entry": ".agents/skills/kd-matplotlib/SKILL.md"
+    },
+    {
+      "name": "kd-medchem",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/medchem/SKILL.md",
+      "entry": ".agents/skills/kd-medchem/SKILL.md"
+    },
+    {
+      "name": "kd-modal",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/modal/SKILL.md",
+      "entry": ".agents/skills/kd-modal/SKILL.md"
+    },
+    {
+      "name": "kd-molecular-dynamics",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/molecular-dynamics/SKILL.md",
+      "entry": ".agents/skills/kd-molecular-dynamics/SKILL.md"
+    },
+    {
+      "name": "kd-molfeat",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/molfeat/SKILL.md",
+      "entry": ".agents/skills/kd-molfeat/SKILL.md"
+    },
+    {
+      "name": "kd-ncats-arax",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/ncats-arax/SKILL.md",
+      "entry": ".agents/skills/kd-ncats-arax/SKILL.md"
+    },
+    {
+      "name": "kd-networkx",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/networkx/SKILL.md",
+      "entry": ".agents/skills/kd-networkx/SKILL.md"
+    },
+    {
+      "name": "kd-neurokit2",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/neurokit2/SKILL.md",
+      "entry": ".agents/skills/kd-neurokit2/SKILL.md"
+    },
+    {
+      "name": "kd-neuropixels-analysis",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/neuropixels-analysis/SKILL.md",
+      "entry": ".agents/skills/kd-neuropixels-analysis/SKILL.md"
+    },
+    {
+      "name": "kd-nextflow",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/nextflow/SKILL.md",
+      "entry": ".agents/skills/kd-nextflow/SKILL.md"
+    },
+    {
+      "name": "kd-nmrglue",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/nmrglue/SKILL.md",
+      "entry": ".agents/skills/kd-nmrglue/SKILL.md"
+    },
+    {
+      "name": "kd-nwb-conversion",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/nwb-conversion/SKILL.md",
+      "entry": ".agents/skills/kd-nwb-conversion/SKILL.md"
+    },
+    {
+      "name": "kd-omero-integration",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/omero-integration/SKILL.md",
+      "entry": ".agents/skills/kd-omero-integration/SKILL.md"
+    },
+    {
+      "name": "kd-onekgpd",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/onekgpd/SKILL.md",
+      "entry": ".agents/skills/kd-onekgpd/SKILL.md"
+    },
+    {
+      "name": "kd-ontology-term-resolution",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/ontology-term-resolution/SKILL.md",
+      "entry": ".agents/skills/kd-ontology-term-resolution/SKILL.md"
+    },
+    {
+      "name": "kd-open-notebook",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/open-notebook/SKILL.md",
+      "entry": ".agents/skills/kd-open-notebook/SKILL.md"
+    },
+    {
+      "name": "kd-openpiv",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/openpiv/SKILL.md",
+      "entry": ".agents/skills/kd-openpiv/SKILL.md"
+    },
+    {
+      "name": "kd-opentrons-integration",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/opentrons-integration/SKILL.md",
+      "entry": ".agents/skills/kd-opentrons-integration/SKILL.md"
+    },
+    {
+      "name": "kd-optimize-for-gpu",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/optimize-for-gpu/SKILL.md",
+      "entry": ".agents/skills/kd-optimize-for-gpu/SKILL.md"
+    },
+    {
+      "name": "kd-pacsomatic",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pacsomatic/SKILL.md",
+      "entry": ".agents/skills/kd-pacsomatic/SKILL.md"
+    },
+    {
+      "name": "kd-paper-lookup",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "01-literature",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/paper-lookup/SKILL.md",
+      "entry": ".agents/skills/kd-paper-lookup/SKILL.md"
+    },
+    {
+      "name": "kd-paperclip",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "04-writing-review",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/paperclip/SKILL.md",
+      "entry": ".agents/skills/kd-paperclip/SKILL.md"
+    },
+    {
+      "name": "kd-paperzilla",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "04-writing-review",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/paperzilla/SKILL.md",
+      "entry": ".agents/skills/kd-paperzilla/SKILL.md"
+    },
+    {
+      "name": "kd-parallel-web",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/parallel-web/SKILL.md",
+      "entry": ".agents/skills/kd-parallel-web/SKILL.md"
+    },
+    {
+      "name": "kd-pathml",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pathml/SKILL.md",
+      "entry": ".agents/skills/kd-pathml/SKILL.md"
+    },
+    {
+      "name": "kd-pathogen-variant-surveillance",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pathogen-variant-surveillance/SKILL.md",
+      "entry": ".agents/skills/kd-pathogen-variant-surveillance/SKILL.md"
+    },
+    {
+      "name": "kd-pathway-enrichment",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pathway-enrichment/SKILL.md",
+      "entry": ".agents/skills/kd-pathway-enrichment/SKILL.md"
+    },
+    {
+      "name": "kd-peer-review",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "04-writing-review",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/peer-review/SKILL.md",
+      "entry": ".agents/skills/kd-peer-review/SKILL.md"
+    },
+    {
+      "name": "kd-pennylane",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pennylane/SKILL.md",
+      "entry": ".agents/skills/kd-pennylane/SKILL.md"
+    },
+    {
+      "name": "kd-phylogenetics",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/phylogenetics/SKILL.md",
+      "entry": ".agents/skills/kd-phylogenetics/SKILL.md"
+    },
+    {
+      "name": "kd-pi-agent",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "05-automation",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pi-agent/SKILL.md",
+      "entry": ".agents/skills/kd-pi-agent/SKILL.md"
+    },
+    {
+      "name": "kd-pkpd-modeling",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pkpd-modeling/SKILL.md",
+      "entry": ".agents/skills/kd-pkpd-modeling/SKILL.md"
+    },
+    {
+      "name": "kd-polars",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/polars/SKILL.md",
+      "entry": ".agents/skills/kd-polars/SKILL.md"
+    },
+    {
+      "name": "kd-polars-bio",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/polars-bio/SKILL.md",
+      "entry": ".agents/skills/kd-polars-bio/SKILL.md"
+    },
+    {
+      "name": "kd-pptx-posters",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "04-writing-review",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pptx-posters/SKILL.md",
+      "entry": ".agents/skills/kd-pptx-posters/SKILL.md"
+    },
+    {
+      "name": "kd-primekg",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/primekg/SKILL.md",
+      "entry": ".agents/skills/kd-primekg/SKILL.md"
+    },
+    {
+      "name": "kd-primer-design",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/primer-design/SKILL.md",
+      "entry": ".agents/skills/kd-primer-design/SKILL.md"
+    },
+    {
+      "name": "kd-protocolsio-integration",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "02-research-design",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/protocolsio-integration/SKILL.md",
+      "entry": ".agents/skills/kd-protocolsio-integration/SKILL.md"
+    },
+    {
+      "name": "kd-pufferlib",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pufferlib/SKILL.md",
+      "entry": ".agents/skills/kd-pufferlib/SKILL.md"
+    },
+    {
+      "name": "kd-pybamm",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pybamm/SKILL.md",
+      "entry": ".agents/skills/kd-pybamm/SKILL.md"
+    },
+    {
+      "name": "kd-pycalphad",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pycalphad/SKILL.md",
+      "entry": ".agents/skills/kd-pycalphad/SKILL.md"
+    },
+    {
+      "name": "kd-pydeseq2",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pydeseq2/SKILL.md",
+      "entry": ".agents/skills/kd-pydeseq2/SKILL.md"
+    },
+    {
+      "name": "kd-pydicom",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pydicom/SKILL.md",
+      "entry": ".agents/skills/kd-pydicom/SKILL.md"
+    },
+    {
+      "name": "kd-pyhealth",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pyhealth/SKILL.md",
+      "entry": ".agents/skills/kd-pyhealth/SKILL.md"
+    },
+    {
+      "name": "kd-pylabrobot",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pylabrobot/SKILL.md",
+      "entry": ".agents/skills/kd-pylabrobot/SKILL.md"
+    },
+    {
+      "name": "kd-pymatgen",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pymatgen/SKILL.md",
+      "entry": ".agents/skills/kd-pymatgen/SKILL.md"
+    },
+    {
+      "name": "kd-pymc",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pymc/SKILL.md",
+      "entry": ".agents/skills/kd-pymc/SKILL.md"
+    },
+    {
+      "name": "kd-pymoo",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pymoo/SKILL.md",
+      "entry": ".agents/skills/kd-pymoo/SKILL.md"
+    },
+    {
+      "name": "kd-pyopenms",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pyopenms/SKILL.md",
+      "entry": ".agents/skills/kd-pyopenms/SKILL.md"
+    },
+    {
+      "name": "kd-pysam",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pysam/SKILL.md",
+      "entry": ".agents/skills/kd-pysam/SKILL.md"
+    },
+    {
+      "name": "kd-pytdc",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pytdc/SKILL.md",
+      "entry": ".agents/skills/kd-pytdc/SKILL.md"
+    },
+    {
+      "name": "kd-pytorch-lightning",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pytorch-lightning/SKILL.md",
+      "entry": ".agents/skills/kd-pytorch-lightning/SKILL.md"
+    },
+    {
+      "name": "kd-pyzotero",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "01-literature",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/pyzotero/SKILL.md",
+      "entry": ".agents/skills/kd-pyzotero/SKILL.md"
+    },
+    {
+      "name": "kd-qiime2-amplicon",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/qiime2-amplicon/SKILL.md",
+      "entry": ".agents/skills/kd-qiime2-amplicon/SKILL.md"
+    },
+    {
+      "name": "kd-qiskit",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/qiskit/SKILL.md",
+      "entry": ".agents/skills/kd-qiskit/SKILL.md"
+    },
+    {
+      "name": "kd-qutip",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/qutip/SKILL.md",
+      "entry": ".agents/skills/kd-qutip/SKILL.md"
+    },
+    {
+      "name": "kd-rdkit",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/rdkit/SKILL.md",
+      "entry": ".agents/skills/kd-rdkit/SKILL.md"
+    },
+    {
+      "name": "kd-relion",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/relion/SKILL.md",
+      "entry": ".agents/skills/kd-relion/SKILL.md"
+    },
+    {
+      "name": "kd-relsa-severity-assessment",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/relsa-severity-assessment/SKILL.md",
+      "entry": ".agents/skills/kd-relsa-severity-assessment/SKILL.md"
+    },
+    {
+      "name": "kd-research-grants",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "01-literature",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/research-grants/SKILL.md",
+      "entry": ".agents/skills/kd-research-grants/SKILL.md"
+    },
+    {
+      "name": "kd-research-lookup",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "01-literature",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/research-lookup/SKILL.md",
+      "entry": ".agents/skills/kd-research-lookup/SKILL.md"
+    },
+    {
+      "name": "kd-rowan",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/rowan/SKILL.md",
+      "entry": ".agents/skills/kd-rowan/SKILL.md"
+    },
+    {
+      "name": "kd-scanpy",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/scanpy/SKILL.md",
+      "entry": ".agents/skills/kd-scanpy/SKILL.md"
+    },
+    {
+      "name": "kd-scholar-evaluation",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "01-literature",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/scholar-evaluation/SKILL.md",
+      "entry": ".agents/skills/kd-scholar-evaluation/SKILL.md"
+    },
+    {
+      "name": "kd-scientific-brainstorming",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/scientific-brainstorming/SKILL.md",
+      "entry": ".agents/skills/kd-scientific-brainstorming/SKILL.md"
+    },
+    {
+      "name": "kd-scientific-critical-thinking",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/scientific-critical-thinking/SKILL.md",
+      "entry": ".agents/skills/kd-scientific-critical-thinking/SKILL.md"
+    },
+    {
+      "name": "kd-scientific-schematics",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/scientific-schematics/SKILL.md",
+      "entry": ".agents/skills/kd-scientific-schematics/SKILL.md"
+    },
+    {
+      "name": "kd-scientific-slides",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "04-writing-review",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/scientific-slides/SKILL.md",
+      "entry": ".agents/skills/kd-scientific-slides/SKILL.md"
+    },
+    {
+      "name": "kd-scientific-visualization",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/scientific-visualization/SKILL.md",
+      "entry": ".agents/skills/kd-scientific-visualization/SKILL.md"
+    },
+    {
+      "name": "kd-scientific-writing",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/scientific-writing/SKILL.md",
+      "entry": ".agents/skills/kd-scientific-writing/SKILL.md"
+    },
+    {
+      "name": "kd-scikit-bio",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/scikit-bio/SKILL.md",
+      "entry": ".agents/skills/kd-scikit-bio/SKILL.md"
+    },
+    {
+      "name": "kd-scikit-learn",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/scikit-learn/SKILL.md",
+      "entry": ".agents/skills/kd-scikit-learn/SKILL.md"
+    },
+    {
+      "name": "kd-scikit-survival",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/scikit-survival/SKILL.md",
+      "entry": ".agents/skills/kd-scikit-survival/SKILL.md"
+    },
+    {
+      "name": "kd-scvelo",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/scvelo/SKILL.md",
+      "entry": ".agents/skills/kd-scvelo/SKILL.md"
+    },
+    {
+      "name": "kd-scvi-tools",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/scvi-tools/SKILL.md",
+      "entry": ".agents/skills/kd-scvi-tools/SKILL.md"
+    },
+    {
+      "name": "kd-seaborn",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/seaborn/SKILL.md",
+      "entry": ".agents/skills/kd-seaborn/SKILL.md"
+    },
+    {
+      "name": "kd-shap",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/shap/SKILL.md",
+      "entry": ".agents/skills/kd-shap/SKILL.md"
+    },
+    {
+      "name": "kd-simpy",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/simpy/SKILL.md",
+      "entry": ".agents/skills/kd-simpy/SKILL.md"
+    },
+    {
+      "name": "kd-stable-baselines3",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/stable-baselines3/SKILL.md",
+      "entry": ".agents/skills/kd-stable-baselines3/SKILL.md"
+    },
+    {
+      "name": "kd-statistical-analysis",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/statistical-analysis/SKILL.md",
+      "entry": ".agents/skills/kd-statistical-analysis/SKILL.md"
+    },
+    {
+      "name": "kd-statistical-power",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/statistical-power/SKILL.md",
+      "entry": ".agents/skills/kd-statistical-power/SKILL.md"
+    },
+    {
+      "name": "kd-statsmodels",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/statsmodels/SKILL.md",
+      "entry": ".agents/skills/kd-statsmodels/SKILL.md"
+    },
+    {
+      "name": "kd-sympy",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/sympy/SKILL.md",
+      "entry": ".agents/skills/kd-sympy/SKILL.md"
+    },
+    {
+      "name": "kd-tamarind",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/tamarind/SKILL.md",
+      "entry": ".agents/skills/kd-tamarind/SKILL.md"
+    },
+    {
+      "name": "kd-tellurium",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/tellurium/SKILL.md",
+      "entry": ".agents/skills/kd-tellurium/SKILL.md"
+    },
+    {
+      "name": "kd-tiledbvcf",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/tiledbvcf/SKILL.md",
+      "entry": ".agents/skills/kd-tiledbvcf/SKILL.md"
+    },
+    {
+      "name": "kd-timesfm-forecasting",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/timesfm-forecasting/SKILL.md",
+      "entry": ".agents/skills/kd-timesfm-forecasting/SKILL.md"
+    },
+    {
+      "name": "kd-torch-geometric",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/torch-geometric/SKILL.md",
+      "entry": ".agents/skills/kd-torch-geometric/SKILL.md"
+    },
+    {
+      "name": "kd-torchdrug",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/torchdrug/SKILL.md",
+      "entry": ".agents/skills/kd-torchdrug/SKILL.md"
+    },
+    {
+      "name": "kd-transformers",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/transformers/SKILL.md",
+      "entry": ".agents/skills/kd-transformers/SKILL.md"
+    },
+    {
+      "name": "kd-treatment-plans",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/treatment-plans/SKILL.md",
+      "entry": ".agents/skills/kd-treatment-plans/SKILL.md"
+    },
+    {
+      "name": "kd-umap-learn",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/umap-learn/SKILL.md",
+      "entry": ".agents/skills/kd-umap-learn/SKILL.md"
+    },
+    {
+      "name": "kd-uncertainty-and-units",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/uncertainty-and-units/SKILL.md",
+      "entry": ".agents/skills/kd-uncertainty-and-units/SKILL.md"
+    },
+    {
+      "name": "kd-usfiscaldata",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/usfiscaldata/SKILL.md",
+      "entry": ".agents/skills/kd-usfiscaldata/SKILL.md"
+    },
+    {
+      "name": "kd-vaex",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/vaex/SKILL.md",
+      "entry": ".agents/skills/kd-vaex/SKILL.md"
+    },
+    {
+      "name": "kd-venue-templates",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/venue-templates/SKILL.md",
+      "entry": ".agents/skills/kd-venue-templates/SKILL.md"
+    },
+    {
+      "name": "kd-waypoint-bio",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "03-data-experiments",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/waypoint-bio/SKILL.md",
+      "entry": ".agents/skills/kd-waypoint-bio/SKILL.md"
+    },
+    {
+      "name": "kd-what-if-oracle",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/what-if-oracle/SKILL.md",
+      "entry": ".agents/skills/kd-what-if-oracle/SKILL.md"
+    },
+    {
+      "name": "kd-zarr-python",
+      "origin": "K-Dense-AI/scientific-agent-skills",
+      "origin_commit": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "type": "06-specialized",
+      "canonical": "collections/01-research-toolkit/K-Dense/skills/zarr-python/SKILL.md",
+      "entry": ".agents/skills/kd-zarr-python/SKILL.md"
+    },
+    {
+      "name": "aris-ablation-planner",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/ablation-planner/SKILL.md",
+      "entry": ".agents/skills/aris-ablation-planner/SKILL.md"
+    },
+    {
+      "name": "aris-alphaxiv",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/alphaxiv/SKILL.md",
+      "entry": ".agents/skills/aris-alphaxiv/SKILL.md"
+    },
+    {
+      "name": "aris-analyze-results",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/analyze-results/SKILL.md",
+      "entry": ".agents/skills/aris-analyze-results/SKILL.md"
+    },
+    {
+      "name": "aris-arxiv",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/arxiv/SKILL.md",
+      "entry": ".agents/skills/aris-arxiv/SKILL.md"
+    },
+    {
+      "name": "aris-auto-paper-improvement-loop",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/auto-paper-improvement-loop/SKILL.md",
+      "entry": ".agents/skills/aris-auto-paper-improvement-loop/SKILL.md"
+    },
+    {
+      "name": "aris-auto-review-loop",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/auto-review-loop/SKILL.md",
+      "entry": ".agents/skills/aris-auto-review-loop/SKILL.md"
+    },
+    {
+      "name": "aris-auto-review-loop-llm",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/auto-review-loop-llm/SKILL.md",
+      "entry": ".agents/skills/aris-auto-review-loop-llm/SKILL.md"
+    },
+    {
+      "name": "aris-auto-review-loop-minimax",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/auto-review-loop-minimax/SKILL.md",
+      "entry": ".agents/skills/aris-auto-review-loop-minimax/SKILL.md"
+    },
+    {
+      "name": "aris-citation-audit",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/citation-audit/SKILL.md",
+      "entry": ".agents/skills/aris-citation-audit/SKILL.md"
+    },
+    {
+      "name": "aris-citation-crosscheck",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/citation-crosscheck/SKILL.md",
+      "entry": ".agents/skills/aris-citation-crosscheck/SKILL.md"
+    },
+    {
+      "name": "aris-claims-drafting",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/claims-drafting/SKILL.md",
+      "entry": ".agents/skills/aris-claims-drafting/SKILL.md"
+    },
+    {
+      "name": "aris-comm-lit-review",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/comm-lit-review/SKILL.md",
+      "entry": ".agents/skills/aris-comm-lit-review/SKILL.md"
+    },
+    {
+      "name": "aris-deepxiv",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/deepxiv/SKILL.md",
+      "entry": ".agents/skills/aris-deepxiv/SKILL.md"
+    },
+    {
+      "name": "aris-dse-loop",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "05-automation",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/dse-loop/SKILL.md",
+      "entry": ".agents/skills/aris-dse-loop/SKILL.md"
+    },
+    {
+      "name": "aris-embodiment-description",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/embodiment-description/SKILL.md",
+      "entry": ".agents/skills/aris-embodiment-description/SKILL.md"
+    },
+    {
+      "name": "aris-exa-search",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/exa-search/SKILL.md",
+      "entry": ".agents/skills/aris-exa-search/SKILL.md"
+    },
+    {
+      "name": "aris-experiment-audit",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "03-data-experiments",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/experiment-audit/SKILL.md",
+      "entry": ".agents/skills/aris-experiment-audit/SKILL.md"
+    },
+    {
+      "name": "aris-experiment-bridge",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "03-data-experiments",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/experiment-bridge/SKILL.md",
+      "entry": ".agents/skills/aris-experiment-bridge/SKILL.md"
+    },
+    {
+      "name": "aris-experiment-plan",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "02-research-design",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/experiment-plan/SKILL.md",
+      "entry": ".agents/skills/aris-experiment-plan/SKILL.md"
+    },
+    {
+      "name": "aris-experiment-queue",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "03-data-experiments",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/experiment-queue/SKILL.md",
+      "entry": ".agents/skills/aris-experiment-queue/SKILL.md"
+    },
+    {
+      "name": "aris-feishu-notify",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/feishu-notify/SKILL.md",
+      "entry": ".agents/skills/aris-feishu-notify/SKILL.md"
+    },
+    {
+      "name": "aris-figure-description",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/figure-description/SKILL.md",
+      "entry": ".agents/skills/aris-figure-description/SKILL.md"
+    },
+    {
+      "name": "aris-figure-spec",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/figure-spec/SKILL.md",
+      "entry": ".agents/skills/aris-figure-spec/SKILL.md"
+    },
+    {
+      "name": "aris-firecrawl-search",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/firecrawl-search/SKILL.md",
+      "entry": ".agents/skills/aris-firecrawl-search/SKILL.md"
+    },
+    {
+      "name": "aris-formula-derivation",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/formula-derivation/SKILL.md",
+      "entry": ".agents/skills/aris-formula-derivation/SKILL.md"
+    },
+    {
+      "name": "aris-gemini-search",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/gemini-search/SKILL.md",
+      "entry": ".agents/skills/aris-gemini-search/SKILL.md"
+    },
+    {
+      "name": "aris-grant-proposal",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "02-research-design",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/grant-proposal/SKILL.md",
+      "entry": ".agents/skills/aris-grant-proposal/SKILL.md"
+    },
+    {
+      "name": "aris-idea-creator",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "02-research-design",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/idea-creator/SKILL.md",
+      "entry": ".agents/skills/aris-idea-creator/SKILL.md"
+    },
+    {
+      "name": "aris-idea-discovery",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "02-research-design",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/idea-discovery/SKILL.md",
+      "entry": ".agents/skills/aris-idea-discovery/SKILL.md"
+    },
+    {
+      "name": "aris-idea-discovery-robot",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "02-research-design",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/idea-discovery-robot/SKILL.md",
+      "entry": ".agents/skills/aris-idea-discovery-robot/SKILL.md"
+    },
+    {
+      "name": "aris-integrity-forensics",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/integrity-forensics/SKILL.md",
+      "entry": ".agents/skills/aris-integrity-forensics/SKILL.md"
+    },
+    {
+      "name": "aris-interview-cheatsheet",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/interview-cheatsheet/SKILL.md",
+      "entry": ".agents/skills/aris-interview-cheatsheet/SKILL.md"
+    },
+    {
+      "name": "aris-invention-structuring",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "02-research-design",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/invention-structuring/SKILL.md",
+      "entry": ".agents/skills/aris-invention-structuring/SKILL.md"
+    },
+    {
+      "name": "aris-jurisdiction-format",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/jurisdiction-format/SKILL.md",
+      "entry": ".agents/skills/aris-jurisdiction-format/SKILL.md"
+    },
+    {
+      "name": "aris-keenable-search",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/keenable-search/SKILL.md",
+      "entry": ".agents/skills/aris-keenable-search/SKILL.md"
+    },
+    {
+      "name": "aris-kill-argument",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/kill-argument/SKILL.md",
+      "entry": ".agents/skills/aris-kill-argument/SKILL.md"
+    },
+    {
+      "name": "aris-lean-formalize",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/lean-formalize/SKILL.md",
+      "entry": ".agents/skills/aris-lean-formalize/SKILL.md"
+    },
+    {
+      "name": "aris-mermaid-diagram",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/mermaid-diagram/SKILL.md",
+      "entry": ".agents/skills/aris-mermaid-diagram/SKILL.md"
+    },
+    {
+      "name": "aris-meta-apply",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "05-automation",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/meta-apply/SKILL.md",
+      "entry": ".agents/skills/aris-meta-apply/SKILL.md"
+    },
+    {
+      "name": "aris-meta-optimize",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "05-automation",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/meta-optimize/SKILL.md",
+      "entry": ".agents/skills/aris-meta-optimize/SKILL.md"
+    },
+    {
+      "name": "aris-monitor-experiment",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "03-data-experiments",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/monitor-experiment/SKILL.md",
+      "entry": ".agents/skills/aris-monitor-experiment/SKILL.md"
+    },
+    {
+      "name": "aris-novelty-check",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "02-research-design",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/novelty-check/SKILL.md",
+      "entry": ".agents/skills/aris-novelty-check/SKILL.md"
+    },
+    {
+      "name": "aris-openalex",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/openalex/SKILL.md",
+      "entry": ".agents/skills/aris-openalex/SKILL.md"
+    },
+    {
+      "name": "aris-overleaf-sync",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/overleaf-sync/SKILL.md",
+      "entry": ".agents/skills/aris-overleaf-sync/SKILL.md"
+    },
+    {
+      "name": "aris-paper-claim-audit",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/paper-claim-audit/SKILL.md",
+      "entry": ".agents/skills/aris-paper-claim-audit/SKILL.md"
+    },
+    {
+      "name": "aris-paper-compile",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/paper-compile/SKILL.md",
+      "entry": ".agents/skills/aris-paper-compile/SKILL.md"
+    },
+    {
+      "name": "aris-paper-figure",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/paper-figure/SKILL.md",
+      "entry": ".agents/skills/aris-paper-figure/SKILL.md"
+    },
+    {
+      "name": "aris-paper-illustration",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/paper-illustration/SKILL.md",
+      "entry": ".agents/skills/aris-paper-illustration/SKILL.md"
+    },
+    {
+      "name": "aris-paper-illustration-image2",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/paper-illustration-image2/SKILL.md",
+      "entry": ".agents/skills/aris-paper-illustration-image2/SKILL.md"
+    },
+    {
+      "name": "aris-paper-plan",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/paper-plan/SKILL.md",
+      "entry": ".agents/skills/aris-paper-plan/SKILL.md"
+    },
+    {
+      "name": "aris-paper-poster",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/paper-poster/SKILL.md",
+      "entry": ".agents/skills/aris-paper-poster/SKILL.md"
+    },
+    {
+      "name": "aris-paper-poster-html",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/paper-poster-html/SKILL.md",
+      "entry": ".agents/skills/aris-paper-poster-html/SKILL.md"
+    },
+    {
+      "name": "aris-paper-slides",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/paper-slides/SKILL.md",
+      "entry": ".agents/skills/aris-paper-slides/SKILL.md"
+    },
+    {
+      "name": "aris-paper-talk",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/paper-talk/SKILL.md",
+      "entry": ".agents/skills/aris-paper-talk/SKILL.md"
+    },
+    {
+      "name": "aris-paper-write",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/paper-write/SKILL.md",
+      "entry": ".agents/skills/aris-paper-write/SKILL.md"
+    },
+    {
+      "name": "aris-paper-writing",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/paper-writing/SKILL.md",
+      "entry": ".agents/skills/aris-paper-writing/SKILL.md"
+    },
+    {
+      "name": "aris-patent-novelty-check",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "02-research-design",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/patent-novelty-check/SKILL.md",
+      "entry": ".agents/skills/aris-patent-novelty-check/SKILL.md"
+    },
+    {
+      "name": "aris-patent-pipeline",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "05-automation",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/patent-pipeline/SKILL.md",
+      "entry": ".agents/skills/aris-patent-pipeline/SKILL.md"
+    },
+    {
+      "name": "aris-patent-review",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/patent-review/SKILL.md",
+      "entry": ".agents/skills/aris-patent-review/SKILL.md"
+    },
+    {
+      "name": "aris-pixel-art",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/pixel-art/SKILL.md",
+      "entry": ".agents/skills/aris-pixel-art/SKILL.md"
+    },
+    {
+      "name": "aris-prior-art-search",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/prior-art-search/SKILL.md",
+      "entry": ".agents/skills/aris-prior-art-search/SKILL.md"
+    },
+    {
+      "name": "aris-proof-checker",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/proof-checker/SKILL.md",
+      "entry": ".agents/skills/aris-proof-checker/SKILL.md"
+    },
+    {
+      "name": "aris-proof-orchestrator",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "05-automation",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/proof-orchestrator/SKILL.md",
+      "entry": ".agents/skills/aris-proof-orchestrator/SKILL.md"
+    },
+    {
+      "name": "aris-proof-writer",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/proof-writer/SKILL.md",
+      "entry": ".agents/skills/aris-proof-writer/SKILL.md"
+    },
+    {
+      "name": "aris-qzcli",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/qzcli/SKILL.md",
+      "entry": ".agents/skills/aris-qzcli/SKILL.md"
+    },
+    {
+      "name": "aris-rebuttal",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/rebuttal/SKILL.md",
+      "entry": ".agents/skills/aris-rebuttal/SKILL.md"
+    },
+    {
+      "name": "aris-render-html",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/render-html/SKILL.md",
+      "entry": ".agents/skills/aris-render-html/SKILL.md"
+    },
+    {
+      "name": "aris-research-implement-feature",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/research-implement-feature/SKILL.md",
+      "entry": ".agents/skills/aris-research-implement-feature/SKILL.md"
+    },
+    {
+      "name": "aris-research-lit",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/research-lit/SKILL.md",
+      "entry": ".agents/skills/aris-research-lit/SKILL.md"
+    },
+    {
+      "name": "aris-research-pipeline",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/research-pipeline/SKILL.md",
+      "entry": ".agents/skills/aris-research-pipeline/SKILL.md"
+    },
+    {
+      "name": "aris-research-refine",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/research-refine/SKILL.md",
+      "entry": ".agents/skills/aris-research-refine/SKILL.md"
+    },
+    {
+      "name": "aris-research-refine-pipeline",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/research-refine-pipeline/SKILL.md",
+      "entry": ".agents/skills/aris-research-refine-pipeline/SKILL.md"
+    },
+    {
+      "name": "aris-research-review",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/research-review/SKILL.md",
+      "entry": ".agents/skills/aris-research-review/SKILL.md"
+    },
+    {
+      "name": "aris-research-wiki",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/research-wiki/SKILL.md",
+      "entry": ".agents/skills/aris-research-wiki/SKILL.md"
+    },
+    {
+      "name": "aris-resubmit-pipeline",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "05-automation",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/resubmit-pipeline/SKILL.md",
+      "entry": ".agents/skills/aris-resubmit-pipeline/SKILL.md"
+    },
+    {
+      "name": "aris-result-to-claim",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/result-to-claim/SKILL.md",
+      "entry": ".agents/skills/aris-result-to-claim/SKILL.md"
+    },
+    {
+      "name": "aris-run-experiment",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "03-data-experiments",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/run-experiment/SKILL.md",
+      "entry": ".agents/skills/aris-run-experiment/SKILL.md"
+    },
+    {
+      "name": "aris-semantic-scholar",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/semantic-scholar/SKILL.md",
+      "entry": ".agents/skills/aris-semantic-scholar/SKILL.md"
+    },
+    {
+      "name": "aris-serverless-modal",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/serverless-modal/SKILL.md",
+      "entry": ".agents/skills/aris-serverless-modal/SKILL.md"
+    },
+    {
+      "name": "aris-slides-polish",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/slides-polish/SKILL.md",
+      "entry": ".agents/skills/aris-slides-polish/SKILL.md"
+    },
+    {
+      "name": "aris-specification-writing",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/specification-writing/SKILL.md",
+      "entry": ".agents/skills/aris-specification-writing/SKILL.md"
+    },
+    {
+      "name": "aris-system-profile",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/system-profile/SKILL.md",
+      "entry": ".agents/skills/aris-system-profile/SKILL.md"
+    },
+    {
+      "name": "aris-training-check",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "03-data-experiments",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/training-check/SKILL.md",
+      "entry": ".agents/skills/aris-training-check/SKILL.md"
+    },
+    {
+      "name": "aris-vast-gpu",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "03-data-experiments",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/vast-gpu/SKILL.md",
+      "entry": ".agents/skills/aris-vast-gpu/SKILL.md"
+    },
+    {
+      "name": "aris-web-debug-search",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "01-literature",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/web-debug-search/SKILL.md",
+      "entry": ".agents/skills/aris-web-debug-search/SKILL.md"
+    },
+    {
+      "name": "aris-wiki-enrich",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "06-specialized",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/wiki-enrich/SKILL.md",
+      "entry": ".agents/skills/aris-wiki-enrich/SKILL.md"
+    },
+    {
+      "name": "aris-writing-systems-papers",
+      "origin": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "origin_commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "type": "04-writing-review",
+      "canonical": "collections/02-autonomous-research/ARIS/skills/writing-systems-papers/SKILL.md",
+      "entry": ".agents/skills/aris-writing-systems-papers/SKILL.md"
+    },
+    {
+      "name": "ars-academic-research-suite",
+      "origin": "Imbad0202/academic-research-skills-codex",
+      "origin_commit": "82725acb393c4410ac6f47634a7f51b40a162fa4",
+      "type": "01-literature",
+      "canonical": "collections/03-academic-paper/ARS-Codex/skills/academic-research-suite/SKILL.md",
+      "entry": ".agents/skills/ars-academic-research-suite/SKILL.md"
+    },
+    {
+      "name": "research-starter-paper",
+      "origin": "YCC-Lover/research-starter-skills",
+      "origin_commit": "1dc4624832f64a544a02396cf0db25af45f1cc6c",
+      "type": "01-literature",
+      "canonical": "collections/04-research-starter/Research-Starter/skills/research-starter-paper/SKILL.md",
+      "entry": ".agents/skills/research-starter-paper/SKILL.md"
+    },
+    {
+      "name": "rsk-experiments-figures",
+      "origin": "YCC-Lover/research-starter-skills",
+      "origin_commit": "1dc4624832f64a544a02396cf0db25af45f1cc6c",
+      "type": "03-data-experiments",
+      "canonical": "collections/04-research-starter/Research-Starter/skills/rsk-experiments-figures/SKILL.md",
+      "entry": ".agents/skills/rsk-experiments-figures/SKILL.md"
+    },
+    {
+      "name": "rsk-literature",
+      "origin": "YCC-Lover/research-starter-skills",
+      "origin_commit": "1dc4624832f64a544a02396cf0db25af45f1cc6c",
+      "type": "01-literature",
+      "canonical": "collections/04-research-starter/Research-Starter/skills/rsk-literature/SKILL.md",
+      "entry": ".agents/skills/rsk-literature/SKILL.md"
+    },
+    {
+      "name": "rsk-paper-writing",
+      "origin": "YCC-Lover/research-starter-skills",
+      "origin_commit": "1dc4624832f64a544a02396cf0db25af45f1cc6c",
+      "type": "04-writing-review",
+      "canonical": "collections/04-research-starter/Research-Starter/skills/rsk-paper-writing/SKILL.md",
+      "entry": ".agents/skills/rsk-paper-writing/SKILL.md"
+    },
+    {
+      "name": "rsk-rebuttal",
+      "origin": "YCC-Lover/research-starter-skills",
+      "origin_commit": "1dc4624832f64a544a02396cf0db25af45f1cc6c",
+      "type": "04-writing-review",
+      "canonical": "collections/04-research-starter/Research-Starter/skills/rsk-rebuttal/SKILL.md",
+      "entry": ".agents/skills/rsk-rebuttal/SKILL.md"
+    },
+    {
+      "name": "rsk-research-design",
+      "origin": "YCC-Lover/research-starter-skills",
+      "origin_commit": "1dc4624832f64a544a02396cf0db25af45f1cc6c",
+      "type": "01-literature",
+      "canonical": "collections/04-research-starter/Research-Starter/skills/rsk-research-design/SKILL.md",
+      "entry": ".agents/skills/rsk-research-design/SKILL.md"
+    },
+    {
+      "name": "rsk-research-workflow",
+      "origin": "YCC-Lover/research-starter-skills",
+      "origin_commit": "1dc4624832f64a544a02396cf0db25af45f1cc6c",
+      "type": "01-literature",
+      "canonical": "collections/04-research-starter/Research-Starter/skills/rsk-research-workflow/SKILL.md",
+      "entry": ".agents/skills/rsk-research-workflow/SKILL.md"
+    }
+  ],
+  "skipped_oversized_files": []
+}

@@ -1,0 +1,55 @@
+{
+  "images": [
+    {
+      "path": "docs/images/presentation-native.png",
+      "kind": "illustrative-output",
+      "creator": "YCC-Lover with Codex; actual Microsoft PowerPoint render",
+      "description": "Unmodified page-2 PNG from the verified v2.1.0 synthetic teaching PPTX; a recorded file render, not real experimental data or a mock software interface.",
+      "source": "docs/images/presentation-native.source.md",
+      "width": 1600,
+      "height": 900,
+      "sha256": "16e2589d3df321a6e566f2c518333a408e9a1bb4b9187dc99a9f0d6c7ae334d8"
+    },
+    {
+      "path": "docs/images/workflow-product.png",
+      "kind": "original-diagram",
+      "creator": "YCC-Lover with Codex GPT-image",
+      "description": "GPT-image-generated product illustration of one router and six focused skills; conceptual artwork, not a software interface or research data.",
+      "source": "docs/images/workflow-product.prompt.md",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "eac2354543229c23f69342adb65c8f7fd496435ff51e150f7d075d3fd74e027e"
+    },
+    {
+      "path": "docs/images/workflow.png",
+      "kind": "original-diagram",
+      "creator": "YCC-Lover with Codex",
+      "description": "Original map of the router and six focused skills.",
+      "source": "scripts/render_showcase.py",
+      "width": 1600,
+      "height": 960,
+      "sha256": "99fecb4983ad718c05608a225ccc30a2ef6bd487a2c8eee34dbcd13d908134c9"
+    },
+    {
+      "path": "docs/images/evidence-check.png",
+      "kind": "illustrative-output",
+      "creator": "YCC-Lover with Codex",
+      "description": "Manually authored claim/evidence illustration, not a recorded model response.",
+      "source": "scripts/render_showcase.py",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0dc4dce484c5f07acc6003ab1486b1ec9fc906083d196dbadb827f7cabc7ee29"
+    },
+    {
+      "path": "docs/images/thermal-demo.png",
+      "kind": "synthetic-data-plot",
+      "creator": "YCC-Lover with Codex",
+      "description": "Reproducible plot of hand-constructed teaching curves; not a real experiment.",
+      "source": "scripts/render_showcase.py",
+      "width": 1800,
+      "height": 810,
+      "sha256": "38c2a7b514b179595cc4e50c25996d169494bfb40af234e395e9568a62fc9284",
+      "data_source": "examples/demo-materials/thermal-demo.csv"
+    }
+  ]
+}
