@@ -1,0 +1,4 @@
+interface:
+  display_name: "Poster Style Transfer"
+  short_description: "Extract poster style systems and create new posters"
+  default_prompt: "Use $poster-style-transfer to analyze this reference poster and create a new poster for my theme."
