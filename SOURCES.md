@@ -17,3 +17,16 @@
 ## 安装与注意事项
 
 目录 `.agents/skills` 适用于以本仓库作为工作仓库的 Codex。其他项目请复制这八个子目录到目标项目的 `.agents/skills`，或个人目录 `~/.agents/skills`。Skill 提供的是操作指令与辅助脚本，并不意味着外部运行环境已安装 Python 包、LibreOffice 或其他必要依赖。运行外部脚本前请检查源码与依赖，并依据上游要求安装。Skill 是第三方内容，不代表 OpenAI 的官方认可。
+
+## 艺术设计（六项第三方 Skill）
+
+| 本仓库入口 | 上游 | 许可证 |
+|---|---|---|
+| [ poster-design ](.agents/skills/poster-design/SKILL.md) | https://github.com/ArnavPuri/designskills | MIT |
+| [ poster-style-transfer ](.agents/skills/poster-style-transfer/SKILL.md) | https://github.com/jiemianduan/poster-style-transfer | MIT |
+| [ poster-generator ](.agents/skills/poster-generator/SKILL.md) | https://github.com/howardz27/poster-generator-skill | MIT |
+| [ academic-poster ](.agents/skills/academic-poster/SKILL.md) | https://github.com/YJlang/academic-poster | MIT |
+| [ impeccable ](.agents/skills/impeccable/SKILL.md) | https://github.com/pbakaus/impeccable | Apache-2.0 |
+| [ canvas-design ](.agents/skills/canvas-design/SKILL.md) | https://github.com/anthropics/skills | Apache-2.0 |
+
+上述项目原始署名与 LICENSE / NOTICE 已保留在对应 Skill 目录。导入 Skill 不代表图像服务、字体、Python/LibreOffice 或其他外部依赖已安装；使用前应审查上游脚本。

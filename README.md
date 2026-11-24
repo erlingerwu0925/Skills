@@ -29,3 +29,11 @@ ARS-Codex、Research Starter Skills、Auto-Research-Skills（资源索引）。
 导入新增 272 个 Codex 技能入口。原有 8 个写作 Skill 保留在 .agents/skills。
 原始技能文件保存在 collections/ 的分类目录中，Codex 入口是读取原始技能的轻量 SKILL.md。
 第 8 套为聚合资源索引，未把外部的数千个子模块直接装入；相关工具、脚本和 API 依赖需要另行检查。
+
+## 艺术设计 Skills（新增 6 项）
+
+新增展览策划海报、艺术风格迁移、印刷排版和视觉校对能力。
+- [艺术设计分类及 6 个 Codex 入口](categories/07-art-design/README.md)
+- [第三方来源和许可证](collections/06-art-design/README.md)
+
+Codex 可显式调用 `$poster-design`、`$poster-style-transfer`、`$poster-generator`、`$academic-poster`、`$impeccable` 和 `$canvas-design`。
